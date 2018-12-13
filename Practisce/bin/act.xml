@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<SOAP-ENV:Envelope
+	xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+	<SOAP-ENV:Body>
+		<ns2:getCustSiteDetailResponse
+			xmlns:ns2="http://dbor.att.com/bvoip/v1"
+			xmlns="http://cio.att.com/commonheader/v3">
+			<ns2:custSiteDetail>
+				<ns2:custSummary>
+					<ns2:primaryCompName>PROFLOWERS</ns2:primaryCompName>
+					<ns2:custDialPlanId>3021880482</ns2:custDialPlanId>
+					<ns2:mainTn />
+					<ns2:tenantRegisCd />
+					<ns2:centrexPrivateDialPlanPrefix />
+					<ns2:voiceMailPlatform />
+					<ns2:VDNARic />
+					<ns2:vdnaAsType />
+					<ns2:vdnaAsNodeName />
+					<ns2:vdnaAsNodeNameSecondary />
+					<ns2:saartId />
+					<ns2:hostedCommunicationFlag />
+					<ns2:serviceProviderId />
+					<ns2:customerContact>
+						<ns2:contactName />
+						<ns2:emailId />
+						<ns2:telephoneNumber />
+						<ns2:streetaddress1 />
+						<ns2:streetaddress2 />
+						<ns2:city />
+						<ns2:state />
+						<ns2:zipCode />
+						<ns2:isoCountryCode />
+					</ns2:customerContact>
+					<ns2:flexReachAsType />
+					<ns2:flexReachAsNodeName />
+					<ns2:flexReachSecondaryAsNodeName />
+					<ns2:vdnaAsReservationNumber />
+					<ns2:flexReachAsReservationNumber />
+					<ns2:sharedAccessProviderId />
+					<ns2:sharedAccessProviderName />
+					<ns2:sharedProvidersCustAdminData>
+						<ns2:adminId />
+						<ns2:firstName />
+						<ns2:lastName />
+						<ns2:emailId />
+						<ns2:telephoneNumber />
+					</ns2:sharedProvidersCustAdminData>
+				</ns2:custSummary>
+				<ns2:bvoipCustSite>
+					<ns2:customerSite>
+						<ns2:siteId>551412482</ns2:siteId>
+						<ns2:hcGroupId />
+						<ns2:IsBGPRPrimarySite />
+						<ns2:IsBGPRSecondarySite />
+						<ns2:primaryFailoverPriorityLevel />
+						<ns2:siteCompanyName />
+						<ns2:siteAddress>
+							<ns2:floor />
+							<ns2:room />
+							<ns2:addr1>INDIA</ns2:addr1>
+							<ns2:city>Bang</ns2:city>
+							<ns2:state>NJ</ns2:state>
+							<ns2:zip>578987893</ns2:zip>
+							<ns2:country>US</ns2:country>
+							<ns2:building />
+							<ns2:timeZone>Eastern - UTC-5</ns2:timeZone>
+							<ns2:province />
+							<ns2:gatewayCityCode>816</ns2:gatewayCityCode>
+							<ns2:countryCode>1</ns2:countryCode>
+						</ns2:siteAddress>
+						<ns2:addNotesComments />
+						<ns2:transSvcType>4</ns2:transSvcType>
+						<ns2:transSvcTypeText>AVPN</ns2:transSvcTypeText>
+						<ns2:siteBillingMcn>567A9</ns2:siteBillingMcn>
+						<ns2:siteBillingGrc>123</ns2:siteBillingGrc>
+						<ns2:siteBillingSoc>AS</ns2:siteBillingSoc>
+						<ns2:siteStatus>PROVISIONED</ns2:siteStatus>
+						<ns2:slaActiveDt />
+						<ns2:firstSvcDt />
+						<ns2:siteCreateDt>11/28/2018</ns2:siteCreateDt>
+						<ns2:siteName>MANYATA</ns2:siteName>
+						<ns2:bvoipSiteAlias />
+						<ns2:geoCd />
+						<ns2:outsideCityInd />
+						<ns2:bvoipSiteType>0</ns2:bvoipSiteType>
+						<ns2:intradoParsedAddr>
+							<ns2:houseNum>94</ns2:houseNum>
+							<ns2:streetNm>Street1</ns2:streetNm>
+							<ns2:streetNmSuffix>AN12</ns2:streetNmSuffix>
+							<ns2:city>BLR</ns2:city>
+							<ns2:stateProvince>KA</ns2:stateProvince>
+							<ns2:zip>560045</ns2:zip>
+						</ns2:intradoParsedAddr>
+						<ns2:icorePVCId>1233</ns2:icorePVCId>
+						<ns2:opportunityId />
+						<ns2:icoreSiteId />
+						<ns2:eCRMRowId>1234</ns2:eCRMRowId>
+						<ns2:transportStatus />
+						<ns2:vpnId>9386</ns2:vpnId>
+						<ns2:mowLedIndr>N</ns2:mowLedIndr>
+						<ns2:commonLanguageCircuitIdentifier />
+						<ns2:bundleType />
+						<ns2:fan />
+						<ns2:bundleMarketingName />
+						<ns2:SBSBundleDefinition>
+							<ns2:bundleDefinitionType />
+							<ns2:standardPackageQuantity />
+							<ns2:premiumPackageQuantity />
+							<ns2:numberOfConcurrentCalls />
+						</ns2:SBSBundleDefinition>
+					</ns2:customerSite>
+					<ns2:numConcurCalls>60</ns2:numConcurCalls>
+					<ns2:chargeNum>0000242534</ns2:chargeNum>
+					<ns2:classicVomisApn>242534</ns2:classicVomisApn>
+					<ns2:ipPbxDetail>
+						<ns2:ipPbxVendor />
+						<ns2:ipPbxModel />
+						<ns2:ipPbxVer />
+						<ns2:pbxEmulation />
+						<ns2:pbxT1BoardModel />
+						<ns2:csuOnPbxCardInd />
+						<ns2:pbxTn />
+						<ns2:iPPbxIpAddressDetailList>
+							<ns2:ipPbxIpAddressDetail>
+								<ns2:publicIpAddress>1.2.3.4</ns2:publicIpAddress>
+								<ns2:pbxIpAddress>5.6.7.8</ns2:pbxIpAddress>
+								<ns2:publicPrefixLength />
+								<ns2:ipAddressType>SIG</ns2:ipAddressType>
+								<ns2:ipPbxAddressSubnetMask />
+								<ns2:custProvPublicAddressIndr>Y</ns2:custProvPublicAddressIndr>
+								<ns2:privatePrefixLength />
+							</ns2:ipPbxIpAddressDetail>
+						</ns2:iPPbxIpAddressDetailList>
+					</ns2:ipPbxDetail>
+					<ns2:ipPbxInd>N</ns2:ipPbxInd>
+					<ns2:isNssCapableIndr>N</ns2:isNssCapableIndr>
+					<ns2:isUuiCapableIndr>N</ns2:isUuiCapableIndr>
+					<ns2:CPEVendor />
+					<ns2:signalingOption>SIP</ns2:signalingOption>
+					<ns2:priSdIpAddr>192.168.100.101</ns2:priSdIpAddr>
+					<ns2:priIPBECons>Consolidation Complete</ns2:priIPBECons>
+					<ns2:priPtnii>wn0il03ibc</ns2:priPtnii>
+					<ns2:primarySipServerIndex />
+					<ns2:secSdIpAddr>192.168.100.131</ns2:secSdIpAddr>
+					<ns2:secIPBECons>Consolidation Complete</ns2:secIPBECons>
+					<ns2:secPtnii>wn0il02ibc</ns2:secPtnii>
+					<ns2:secondarySipServerIndex />
+					<ns2:defaultPsapCallingNum />
+					<ns2:custRouterAddr />
+					<ns2:accessRouterAddr />
+					<ns2:voipOptionList>
+						<ns2:voipOption>IPLD</ns2:voipOption>
+						<ns2:voipOption>IP_LOCAL</ns2:voipOption>
+					</ns2:voipOptionList>
+					<ns2:layer3CrossRef>
+						<ns2:wanLinkIpAddr>3.4.5.87</ns2:wanLinkIpAddr>
+						<ns2:v6VdnaLoopback />
+						<ns2:priPiid>123456789012</ns2:priPiid>
+						<ns2:secBackupPiid />
+					</ns2:layer3CrossRef>
+					<ns2:otg>0</ns2:otg>
+					<ns2:hostRouterNm />
+					<ns2:custIdNum />
+					<ns2:nonNativeChargeNum />
+					<ns2:isupMimeIndr>N</ns2:isupMimeIndr>
+					<ns2:nativeTRN />
+					<ns2:nonNativeTRN />
+					<ns2:cic />
+					<ns2:upchainIndr>N</ns2:upchainIndr>
+					<ns2:routerManagementType>C</ns2:routerManagementType>
+					<ns2:accessId />
+					<ns2:fenpa />
+					<ns2:numofConcurCallsPerIPBE>60</ns2:numofConcurCallsPerIPBE>
+					<ns2:clusterRoutingType />
+					<ns2:ipPbxNatIndr />
+					<ns2:custMngRouterVendor />
+					<ns2:custMngRouterModel />
+					<ns2:custMngRouterVersion />
+					<ns2:ceIpAddress />
+					<ns2:ceIpAddressMask />
+					<ns2:ceIpv6Address />
+					<ns2:ceIpv6PrefixLength />
+					<ns2:srstCertIndr />
+					<ns2:siteSurvivabilityIndr>N</ns2:siteSurvivabilityIndr>
+					<ns2:isReallocationInProgressIndr />
+					<ns2:nonNativeAccessId />
+					<ns2:siteAccountNumber />
+					<ns2:voipMarketSegment />
+					<ns2:custBDAdmin>
+						<ns2:firstName />
+						<ns2:lastName />
+						<ns2:emailId />
+						<ns2:telephoneNumber />
+						<ns2:endUserConfigIndr />
+						<ns2:newUserIndr />
+						<ns2:existingBDUserId />
+					</ns2:custBDAdmin>
+					<ns2:leadAccountNumber />
+					<ns2:testAndTurnupDate />
+					<ns2:scheduledTTDate />
+					<ns2:scheduledTTTime />
+					<ns2:scheduledTTTimeZone />
+					<ns2:targetVdnaSbDD />
+					<ns2:purchaseDecisionDate />
+					<ns2:attCapabilityDD />
+					<ns2:campusType />
+					<ns2:managementType />
+					<ns2:redundancyIndr />
+					<ns2:specAccessApptTimeCode />
+					<ns2:parsedTransportServiceAddress>
+						<ns2:houseNumPrefix />
+						<ns2:houseNum />
+						<ns2:houseNumSuffix />
+						<ns2:streetDirectional />
+						<ns2:streetNm />
+						<ns2:streetThoroughfare />
+						<ns2:streetNmSuffix />
+						<ns2:descriptiveAddress />
+						<ns2:city />
+						<ns2:state />
+						<ns2:zip />
+						<ns2:country />
+					</ns2:parsedTransportServiceAddress>
+					<ns2:vpnName />
+					<ns2:vpnId>9386</ns2:vpnId>
+					<ns2:siteOutboundCodecProfId />
+					<ns2:accessSpeed />
+					<ns2:IPTFNetworkIndr />
+					<ns2:IPTFReRouteIndr>N</ns2:IPTFReRouteIndr>
+					<ns2:IPTFReRouteSiteId />
+					<ns2:portSpeed />
+					<ns2:TDMGatewayCardIndr />
+					<ns2:totalLicenses>0</ns2:totalLicenses>
+					<ns2:licenseRouterType />
+					<ns2:attProvidedVOIPRouterCardFlag />
+					<ns2:siteProcessedBy />
+					<ns2:product />
+					<ns2:mainContractType />
+					<ns2:IPTFSIPOptionsIndr>N</ns2:IPTFSIPOptionsIndr>
+					<ns2:ipxcCIDIndr>N</ns2:ipxcCIDIndr>
+					<ns2:seatId />
+					<ns2:ipInfopackBillingOption />
+					<ns2:ipCourtesyBillingOption />
+					<ns2:isInternationalInboundIndr>N</ns2:isInternationalInboundIndr>
+					<ns2:primaryEightYYNumber />
+					<ns2:BIBIndr>N</ns2:BIBIndr>
+					<ns2:governmentBillingIndr>N</ns2:governmentBillingIndr>
+					<ns2:activeDialPlanIndr>Y</ns2:activeDialPlanIndr>
+					<ns2:sharedCPEIndr>Y</ns2:sharedCPEIndr>
+					<ns2:inboundAlternateSiteId />
+					<ns2:enhancedServiceIndr>N</ns2:enhancedServiceIndr>
+					<ns2:groupTrunkGroupName>MANISHA</ns2:groupTrunkGroupName>
+					<ns2:isKeySystemIndr />
+					<ns2:thirdPartyCarrierName>NOTUS</ns2:thirdPartyCarrierName>
+					<ns2:ituCode>32</ns2:ituCode>
+					<ns2:languageLine />
+					<ns2:asBypassRoutingIndr />
+					<ns2:subnet />
+					<ns2:prefixLength />
+					<ns2:subnetMask />
+					<ns2:vqmType />
+					<ns2:mrsIndicator />
+					<ns2:mrsRouterHostname />
+					<ns2:WTNIndicator />
+					<ns2:NBFMCIndicator />
+					<ns2:salesChannel />
+					<ns2:bvoipIpAddrVersion>IPv4</ns2:bvoipIpAddrVersion>
+					<ns2:transportIpAddrVersion />
+					<ns2:ban />
+					<ns2:eightYYCallingLineIdFlag />
+					<ns2:siteSuspendIndr />
+					<ns2:siteSuspendReason />
+					<ns2:sharedUseFlag />
+					<ns2:primarySDMediaIpAddress />
+					<ns2:secondarySDMediaIpAddress />
+					<ns2:primaryVlanId />
+					<ns2:secondaryVlanId />
+					<ns2:signalingEncryptionIndr />
+					<ns2:mfaCapableIndr>N</ns2:mfaCapableIndr>
+					<ns2:networkTranscodingIndr />
+					<ns2:callPreservationPrimaryIndr />
+					<ns2:callPreservationSecondaryIndr />
+					<ns2:callPreservationPrimarySiteId />
+					<ns2:primarySdPhysicalPort1 />
+					<ns2:primarySdPhysicalPort2 />
+					<ns2:primarySdNetworkMask />
+					<ns2:primarySdDefaultGateway />
+					<ns2:secondarySdPhysicalPort1 />
+					<ns2:secondarySdPhysicalPort2 />
+					<ns2:secondarySdNetworkMask />
+					<ns2:secondarySdDefaultGateway />
+				</ns2:bvoipCustSite>
+			</ns2:custSiteDetail>
+		</ns2:getCustSiteDetailResponse>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

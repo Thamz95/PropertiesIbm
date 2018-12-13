@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<StoreWorkOrderRequest
+	xmlns:a="http://cio.att.com/commonheader/v3"
+	xmlns="http://spp.att.com/workorder">
+	<a:WSHeader>
+		<a:WSEndUserToken>
+			<a:Token>token</a:Token>
+			<a:TokenType>tokenType</a:TokenType>
+		</a:WSEndUserToken>
+	</a:WSHeader>
+	<workOrderMethod>UvpBrxUpdates</workOrderMethod>
+	<methodInputParms>
+		<source>uvpOrder</source>
+		<activity>BRX Provisioning</activity>
+		<sourceKey>CAORDER!42057</sourceKey>
+	</methodInputParms>
+	<uvpBrxFields>
+		<brxCltn>cl1oh07bgc</brxCltn>
+		<bgcfInboundTgIpSigProf>01</bgcfInboundTgIpSigProf>
+		<bgcfInboundTgRespCode>01</bgcfInboundTgRespCode>
+		<bgcfInboundTgDomain>USIPIC_SW</bgcfInboundTgDomain>
+		<bgcfOutboundTgSigProf>01</bgcfOutboundTgSigProf>
+		<bgcfOutboundTgIpSigProf>01</bgcfOutboundTgIpSigProf>
+		<isbcCltn>CHCGILCG_ibcx1004vm001</isbcCltn>
+		<isbcCltn>ALPRGAED_ibcx1007vm001</isbcCltn>
+		<addGatewayCltn>
+			<sipSignalingAddress>14.2.3.5</sipSignalingAddress>
+			<tgrp>ut05ea2atlnga01</tgrp>
+		</addGatewayCltn>
+		<eventType>Carrier Area</eventType>
+		<action>A</action>
+		<isbcChgIndr>false</isbcChgIndr>
+		<gatewayChgIndr>false</gatewayChgIndr>
+		<tgCos>TDOM_BOTH_OUT</tgCos>
+		<carrierAreaId>UT05EA2</carrierAreaId>
+		<intlIndr>N</intlIndr>
+		<avoicsIndr>N</avoicsIndr>
+		<carrierAreaRouting>2 Way</carrierAreaRouting>
+		<lastCarrierIndr>false</lastCarrierIndr>
+	</uvpBrxFields>
+</StoreWorkOrderRequest>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<StoreWorkOrderRequest
+	xmlns:a="http://cio.att.com/commonheader/v3"
+	xmlns="http://spp.att.com/workorder">
+	<a:WSHeader>
+		<a:WSEndUserToken>
+			<a:Token>token</a:Token>
+			<a:TokenType>tokenType</a:TokenType>
+		</a:WSEndUserToken>
+	</a:WSHeader>
+	<workOrderMethod>UvpBrxUpdates</workOrderMethod>
+	<methodInputParms>
+		<source>uvpOrder</source>
+		<activity>BRX Provisioning</activity>
+		<sourceKey>CAORDER!42057</sourceKey>
+	</methodInputParms>
+	<uvpBrxFields>
+		<brxCltn>cl1oh07bgc</brxCltn>
+		<bgcfInboundTgIpSigProf>01</bgcfInboundTgIpSigProf>
+		<bgcfInboundTgRespCode>01</bgcfInboundTgRespCode>
+		<bgcfInboundTgDomain>USIPIC_SW</bgcfInboundTgDomain>
+		<bgcfOutboundTgSigProf>01</bgcfOutboundTgSigProf>
+		<bgcfOutboundTgIpSigProf>01</bgcfOutboundTgIpSigProf>
+		<isbcCltn>CHCGILCG_ibcx1004vm001</isbcCltn>
+		<isbcCltn>ALPRGAED_ibcx1007vm001</isbcCltn>
+		<addGatewayCltn>
+			<sipSignalingAddress>14.2.3.5</sipSignalingAddress>
+			<tgrp>ut05ea2atlnga01</tgrp>
+		</addGatewayCltn>
+		<eventType>Carrier Area</eventType>
+		<action>A</action>
+		<isbcChgIndr>false</isbcChgIndr>
+		<gatewayChgIndr>false</gatewayChgIndr>
+		<tgCos>TDOM_BOTH_OUT</tgCos>
+		<carrierAreaId>UT05EA2</carrierAreaId>
+		<intlIndr>N</intlIndr>
+		<avoicsIndr>N</avoicsIndr>
+		<carrierAreaRouting>2 Way</carrierAreaRouting>
+		<lastCarrierIndr>false</lastCarrierIndr>
+	</uvpBrxFields>
+</StoreWorkOrderRequest>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<StoreWorkOrderRequest
+	xmlns:a="http://cio.att.com/commonheader/v3"
+	xmlns="http://spp.att.com/workorder">
+	<a:WSHeader>
+		<a:WSEndUserToken>
+			<a:Token>token</a:Token>
+			<a:TokenType>tokenType</a:TokenType>
+		</a:WSEndUserToken>
+	</a:WSHeader>
+	<workOrderMethod>UvpBrxUpdates</workOrderMethod>
+	<methodInputParms>
+		<source>uvpOrder</source>
+		<activity>BRX Provisioning</activity>
+		<sourceKey>CAORDER!42053</sourceKey>
+	</methodInputParms>
+	<uvpBrxFields>
+		<brxCltn>cl1oh07bgc</brxCltn>
+		<bgcfInboundTgIpSigProf>01</bgcfInboundTgIpSigProf>
+		<bgcfInboundTgRespCode>01</bgcfInboundTgRespCode>
+		<bgcfInboundTgDomain>USIPIC_SE</bgcfInboundTgDomain>
+		<bgcfOutboundTgSigProf>01</bgcfOutboundTgSigProf>
+		<bgcfOutboundTgIpSigProf>01</bgcfOutboundTgIpSigProf>
+		<isbcCltn>ATLNGATL3UW</isbcCltn>
+		<isbcCltn>WNDRFLTL0CW</isbcCltn>
+		<isbcCltn>CHCGILCG_ibcx1004vm001</isbcCltn>
+		<isbcCltn>ALPRGAED_ibcx1007vm001</isbcCltn>
+		<addGatewayCltn>
+			<sipSignalingAddress>14.14.14.101</sipSignalingAddress>
+			<tgrp>ut05se2nworla01</tgrp>
+		</addGatewayCltn>
+		<addGatewayCltn>
+			<sipSignalingAddress>14.14.14.100</sipSignalingAddress>
+			<tgrp>ut05se2svnhga01</tgrp>
+		</addGatewayCltn>
+		<eventType>Carrier Area</eventType>
+		<action>A</action>
+		<isbcChgIndr>false</isbcChgIndr>
+		<gatewayChgIndr>false</gatewayChgIndr>
+		<tgCos>TINTL_BOTH_OUT</tgCos>
+		<carrierAreaId>UT05SE2</carrierAreaId>
+		<intlIndr>N</intlIndr>
+		<avoicsIndr>Y</avoicsIndr>
+		<carrierAreaRouting>2 Way</carrierAreaRouting>
+		<lastCarrierIndr>false</lastCarrierIndr>
+	</uvpBrxFields>
+</StoreWorkOrderRequest>
+
+
+
+
+
+<soapenv:Envelope
+	xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+	<soapenv:Body>
+		<ns2:listNetworkElementByTypeResponse
+			xmlns:ns2="http://dbor.att.com/ip/nai/v1"
+			xmlns="http://cio.att.com/commonheader/v3">
+			<ns2:networkElementDetailList>
+				<ns2:networkElementDetail>
+					<ns2:neName>wn5il02pst</ns2:neName>
+					<ns2:neType>PSX</ns2:neType>
+					<ns2:neModel>Model</ns2:neModel>
+					<ns2:priClli>wn5il02pst</ns2:priClli>
+					<ns2:equipSvc>SOIP</ns2:equipSvc>
+					<ns2:serviceType>BVOIP</ns2:serviceType>
+					<ns2:ptniiEquipCode>mgw</ns2:ptniiEquipCode>
+					<ns2:networkIPAddressList>
+						<ns2:networkIPAddress>
+							<ns2:ipAddrUse>SIP</ns2:ipAddrUse>
+							<ns2:ipAddr>035.189.40.111</ns2:ipAddr>
+							<ns2:ipAddrMask>/25</ns2:ipAddrMask>
+						</ns2:networkIPAddress>
+					</ns2:networkIPAddressList>
+					<ns2:manuf>LUCENT</ns2:manuf>
+					<ns2:description>This is also made up</ns2:description>
+					<ns2:relatedNetworkElementList />
+					<ns2:plannedStartDt>03/21/2005</ns2:plannedStartDt>
+					<ns2:networkClusterServiceList>
+						<ns2:networkClusterService>
+							<ns2:networkClusterId>jsttar03</ns2:networkClusterId>
+							<ns2:networkClusterType>MPSX</ns2:networkClusterType>
+							<ns2:networkClusterClli>WN5IL03GHAA</ns2:networkClusterClli>
+						</ns2:networkClusterService>
+					</ns2:networkClusterServiceList>
+					<ns2:actionType>A</ns2:actionType>
+					<ns2:gsxId>0101</ns2:gsxId>
+				</ns2:networkElementDetail>
+				<ns2:networkElementDetail>
+					<ns2:neName>br5mo01psx</ns2:neName>
+					<ns2:neType>PSX</ns2:neType>
+					<ns2:neModel>Model</ns2:neModel>
+					<ns2:priClli>br5mo01psx</ns2:priClli>
+					<ns2:equipSvc>RHTSOIP</ns2:equipSvc>
+					<ns2:serviceType>BVOIP</ns2:serviceType>
+					<ns2:ptniiEquipCode>mgw</ns2:ptniiEquipCode>
+					<ns2:networkIPAddressList>
+						<ns2:networkIPAddress>
+							<ns2:ipAddrUse>SIP</ns2:ipAddrUse>
+							<ns2:ipAddr>035.189.40.111</ns2:ipAddr>
+							<ns2:ipAddrMask>/25</ns2:ipAddrMask>
+						</ns2:networkIPAddress>
+					</ns2:networkIPAddressList>
+					<ns2:manuf>LUCENT</ns2:manuf>
+					<ns2:description>This is also made up</ns2:description>
+					<ns2:relatedNetworkElementList />
+					<ns2:plannedStartDt>03/21/2005</ns2:plannedStartDt>
+					<ns2:networkClusterServiceList>
+						<ns2:networkClusterService>
+							<ns2:networkClusterId>jsttar77</ns2:networkClusterId>
+							<ns2:networkClusterType>MPSX</ns2:networkClusterType>
+							<ns2:networkClusterClli>TESTPSXCLLI</ns2:networkClusterClli>
+						</ns2:networkClusterService>
+					</ns2:networkClusterServiceList>
+					<ns2:actionType>A</ns2:actionType>
+					<ns2:gsxId>0101</ns2:gsxId>
+				</ns2:networkElementDetail>
+				<ns2:networkElementDetail>
+					<ns2:neName>wn4il01psp</ns2:neName>
+					<ns2:neType>PSX</ns2:neType>
+					<ns2:neModel>Model</ns2:neModel>
+					<ns2:priClli>wn4il01psp</ns2:priClli>
+					<ns2:equipSvc>VCOMMON</ns2:equipSvc>
+					<ns2:serviceType>BVOIP</ns2:serviceType>
+					<ns2:ptniiEquipCode>mgw</ns2:ptniiEquipCode>
+					<ns2:networkIPAddressList>
+						<ns2:networkIPAddress>
+							<ns2:ipAddrUse>SIP</ns2:ipAddrUse>
+							<ns2:ipAddr>035.189.40.111</ns2:ipAddr>
+							<ns2:ipAddrMask>/25</ns2:ipAddrMask>
+						</ns2:networkIPAddress>
+					</ns2:networkIPAddressList>
+					<ns2:manuf>LUCENT</ns2:manuf>
+					<ns2:description>This is also made up</ns2:description>
+					<ns2:relatedNetworkElementList />
+					<ns2:plannedStartDt>03/21/2005</ns2:plannedStartDt>
+					<ns2:networkClusterServiceList>
+						<ns2:networkClusterService>
+							<ns2:networkClusterId>jsttar03</ns2:networkClusterId>
+							<ns2:networkClusterType>MPSX</ns2:networkClusterType>
+							<ns2:networkClusterClli>WN5IL03GHAA</ns2:networkClusterClli>
+						</ns2:networkClusterService>
+					</ns2:networkClusterServiceList>
+					<ns2:actionType>A</ns2:actionType>
+					<ns2:gsxId>0101</ns2:gsxId>
+				</ns2:networkElementDetail>
+				<ns2:networkElementDetail>
+					<ns2:neName>wn4il02psp</ns2:neName>
+					<ns2:neType>PSX</ns2:neType>
+					<ns2:neModel>Model</ns2:neModel>
+					<ns2:priClli>wn4il02psp</ns2:priClli>
+					<ns2:equipSvc>VCOMMON</ns2:equipSvc>
+					<ns2:serviceType>BVOIP</ns2:serviceType>
+					<ns2:ptniiEquipCode>mgw</ns2:ptniiEquipCode>
+					<ns2:networkIPAddressList>
+						<ns2:networkIPAddress>
+							<ns2:ipAddrUse>SIP</ns2:ipAddrUse>
+							<ns2:ipAddr>035.189.40.111</ns2:ipAddr>
+							<ns2:ipAddrMask>/25</ns2:ipAddrMask>
+						</ns2:networkIPAddress>
+					</ns2:networkIPAddressList>
+					<ns2:manuf>LUCENT</ns2:manuf>
+					<ns2:description>This is also made up</ns2:description>
+					<ns2:relatedNetworkElementList />
+					<ns2:plannedStartDt>03/21/2005</ns2:plannedStartDt>
+					<ns2:networkClusterServiceList>
+						<ns2:networkClusterService>
+							<ns2:networkClusterId>jsttar03</ns2:networkClusterId>
+							<ns2:networkClusterType>MPSX</ns2:networkClusterType>
+							<ns2:networkClusterClli>WN5IL03GHAA</ns2:networkClusterClli>
+						</ns2:networkClusterService>
+					</ns2:networkClusterServiceList>
+					<ns2:actionType>A</ns2:actionType>
+					<ns2:gsxId>0101</ns2:gsxId>
+				</ns2:networkElementDetail>
+				<ns2:networkElementDetail>
+					<ns2:neName>wn7il01pst</ns2:neName>
+					<ns2:neType>PSX</ns2:neType>
+					<ns2:neModel>Model</ns2:neModel>
+					<ns2:priClli>wn7il01pst</ns2:priClli>
+					<ns2:equipSvc>RHTVCOMMON</ns2:equipSvc>
+					<ns2:serviceType>BVOIP</ns2:serviceType>
+					<ns2:ptniiEquipCode>mgw</ns2:ptniiEquipCode>
+					<ns2:networkIPAddressList>
+						<ns2:networkIPAddress>
+							<ns2:ipAddrUse>SIP</ns2:ipAddrUse>
+							<ns2:ipAddr>035.189.40.111</ns2:ipAddr>
+							<ns2:ipAddrMask>/25</ns2:ipAddrMask>
+						</ns2:networkIPAddress>
+					</ns2:networkIPAddressList>
+					<ns2:manuf>LUCENT</ns2:manuf>
+					<ns2:description>This is also made up</ns2:description>
+					<ns2:relatedNetworkElementList />
+					<ns2:plannedStartDt>03/21/2005</ns2:plannedStartDt>
+					<ns2:networkClusterServiceList>
+						<ns2:networkClusterService>
+							<ns2:networkClusterId>jsttar77</ns2:networkClusterId>
+							<ns2:networkClusterType>MPSX</ns2:networkClusterType>
+							<ns2:networkClusterClli>TESTPSXCLLI</ns2:networkClusterClli>
+						</ns2:networkClusterService>
+					</ns2:networkClusterServiceList>
+					<ns2:actionType>A</ns2:actionType>
+					<ns2:gsxId>0101</ns2:gsxId>
+				</ns2:networkElementDetail>
+				<ns2:networkElementDetail>
+					<ns2:neName>wc1il01bgc</ns2:neName>
+					<ns2:neType>PSX</ns2:neType>
+					<ns2:neModel>Model</ns2:neModel>
+					<ns2:priClli>wc1il01bgc</ns2:priClli>
+					<ns2:equipSvc>VCOMMON</ns2:equipSvc>
+					<ns2:serviceType>UVP</ns2:serviceType>
+					<ns2:ptniiEquipCode>mgw</ns2:ptniiEquipCode>
+					<ns2:networkIPAddressList>
+						<ns2:networkIPAddress>
+							<ns2:ipAddrUse>SIP</ns2:ipAddrUse>
+							<ns2:ipAddr>035.189.40.111</ns2:ipAddr>
+							<ns2:ipAddrMask>/25</ns2:ipAddrMask>
+						</ns2:networkIPAddress>
+					</ns2:networkIPAddressList>
+					<ns2:manuf>LUCENT</ns2:manuf>
+					<ns2:description>This is also made up</ns2:description>
+					<ns2:relatedNetworkElementList />
+					<ns2:plannedStartDt>03/21/2005</ns2:plannedStartDt>
+					<ns2:networkClusterServiceList>
+						<ns2:networkClusterService>
+							<ns2:networkClusterId>jsttar77</ns2:networkClusterId>
+							<ns2:networkClusterType>MBRY</ns2:networkClusterType>
+							<ns2:networkClusterClli>TESTPSXCLLI</ns2:networkClusterClli>
+						</ns2:networkClusterService>
+					</ns2:networkClusterServiceList>
+					<ns2:actionType>A</ns2:actionType>
+					<ns2:gsxId>0101</ns2:gsxId>
+				</ns2:networkElementDetail>
+				<ns2:networkElementDetail>
+					<ns2:neName>wa1il02bgc</ns2:neName>
+					<ns2:neType>PSX</ns2:neType>
+					<ns2:neModel>Model</ns2:neModel>
+					<ns2:priClli>wa1il02bgc</ns2:priClli>
+					<ns2:equipSvc>VCOMMON</ns2:equipSvc>
+					<ns2:serviceType>UVP</ns2:serviceType>
+					<ns2:ptniiEquipCode>mgw</ns2:ptniiEquipCode>
+					<ns2:networkIPAddressList>
+						<ns2:networkIPAddress>
+							<ns2:ipAddrUse>SIP</ns2:ipAddrUse>
+							<ns2:ipAddr>035.189.40.111</ns2:ipAddr>
+							<ns2:ipAddrMask>/25</ns2:ipAddrMask>
+						</ns2:networkIPAddress>
+					</ns2:networkIPAddressList>
+					<ns2:manuf>SONUS</ns2:manuf>
+					<ns2:description>This is also made up</ns2:description>
+					<ns2:relatedNetworkElementList />
+					<ns2:plannedStartDt>03/21/2005</ns2:plannedStartDt>
+					<ns2:networkClusterServiceList>
+						<ns2:networkClusterService>
+							<ns2:networkClusterId>jsttar76</ns2:networkClusterId>
+							<ns2:networkClusterType>MBRY</ns2:networkClusterType>
+							<ns2:networkClusterClli>TESTPSXCLLI</ns2:networkClusterClli>
+						</ns2:networkClusterService>
+					</ns2:networkClusterServiceList>
+					<ns2:actionType>A</ns2:actionType>
+					<ns2:gsxId>0101</ns2:gsxId>
+				</ns2:networkElementDetail>
+				<ns2:networkElementDetail>
+					<ns2:neName>wa1il01bgx</ns2:neName>
+					<ns2:neType>PSX</ns2:neType>
+					<ns2:neModel>Model</ns2:neModel>
+					<ns2:priClli>wa1il01bgx</ns2:priClli>
+					<ns2:equipSvc>VCOMMON</ns2:equipSvc>
+					<ns2:serviceType>UVP</ns2:serviceType>
+					<ns2:ptniiEquipCode>mgw</ns2:ptniiEquipCode>
+					<ns2:networkIPAddressList>
+						<ns2:networkIPAddress>
+							<ns2:ipAddrUse>SIP</ns2:ipAddrUse>
+							<ns2:ipAddr>035.189.40.111</ns2:ipAddr>
+							<ns2:ipAddrMask>/25</ns2:ipAddrMask>
+						</ns2:networkIPAddress>
+					</ns2:networkIPAddressList>
+					<ns2:manuf>SONUS</ns2:manuf>
+					<ns2:description>This is also made up</ns2:description>
+					<ns2:relatedNetworkElementList />
+					<ns2:plannedStartDt>03/21/2005</ns2:plannedStartDt>
+					<ns2:networkClusterServiceList>
+						<ns2:networkClusterService>
+							<ns2:networkClusterId>jsttar76</ns2:networkClusterId>
+							<ns2:networkClusterType>MBRX</ns2:networkClusterType>
+							<ns2:networkClusterClli>TESTPSXCLLI</ns2:networkClusterClli>
+						</ns2:networkClusterService>
+					</ns2:networkClusterServiceList>
+					<ns2:actionType>A</ns2:actionType>
+					<ns2:gsxId>0101</ns2:gsxId>
+				</ns2:networkElementDetail>
+			</ns2:networkElementDetailList>
+		</ns2:listNetworkElementByTypeResponse>
+	</soapenv:Body>
+</soapenv:Envelope>
+
+
+
+
+<?xml version='1.0' encoding='utf-8'?>
+<SOAP-ENV:Envelope
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:m1="http://dbor.att.com/bvoip/v1"
+	xmlns:m2="http://cio.att.com/commonheader/v3"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+	<SOAP-ENV:Header>
+		<m3:Security
+			xmlns:m3="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+			<m3:UsernameToken xsi:type="m3:UsernameTokenType">
+				<m3:Username>dborsppst</m3:Username>
+				<m3:Password xsi:type="m3:PasswordString"
+					Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">dborsppst123</m3:Password>
+			</m3:UsernameToken>
+		</m3:Security>
+	</SOAP-ENV:Header>
+	<SOAP-ENV:Body>
+		<m1:updateCustSiteDetailRequest>
+			<m2:WSHeader>
+				<m2:WSEndUserToken>
+					<m2:Token></m2:Token>
+					<m2:TokenType></m2:TokenType>
+					<m2:WSNameValue>
+						<m2:Name></m2:Name>
+						<m2:Value></m2:Value>
+					</m2:WSNameValue>
+				</m2:WSEndUserToken>
+				<m2:WSContext>
+					<m2:FromAppId></m2:FromAppId>
+					<m2:ToAppId></m2:ToAppId>
+					<m2:Version>
+						<m2:major>0</m2:major>
+						<m2:minor>0</m2:minor>
+					</m2:Version>
+					<m2:SourceIPAddress></m2:SourceIPAddress>
+					<m2:WSNameValue>
+						<m2:Name></m2:Name>
+						<m2:Value></m2:Value>
+					</m2:WSNameValue>
+				</m2:WSContext>
+				<m2:WSConversationId></m2:WSConversationId>
+				<m2:WSMessageData>
+					<m2:MessageId></m2:MessageId>
+					<m2:RefToMessageId></m2:RefToMessageId>
+					<m2:Timestamp>2018-10-29T12:51:59.657Z</m2:Timestamp>
+				</m2:WSMessageData>
+				<m2:WSResponseMessageExpiration>0</m2:WSResponseMessageExpiration>
+				<m2:WSEnterpriseLogging>
+					<m2:ApplicationID></m2:ApplicationID>
+					<m2:LoggingKey></m2:LoggingKey>
+				</m2:WSEnterpriseLogging>
+			</m2:WSHeader>
+			<m1:custOrderSummary>
+				<m1:serviceOrderNumber>CHNAV2113</m1:serviceOrderNumber>
+				<m1:projectNumber>JUNEBVOIPCHG01</m1:projectNumber>
+			</m1:custOrderSummary>
+			<m1:custSiteDetail>
+				<m1:custSummary>
+					<m1:primaryCompName>TC013 - IST</m1:primaryCompName>
+					<m1:custDialPlanId>1000014560</m1:custDialPlanId>
+				</m1:custSummary>
+				<m1:bvoipCustSite>
+					<m1:customerSite>
+						<m1:siteId>5260119</m1:siteId>
+						<m1:siteAddress>
+							<m1:addr1>India</m1:addr1>
+							<m1:countryCode>1</m1:countryCode>
+						</m1:siteAddress>
+						<m1:transSvcType>0</m1:transSvcType>
+						<m1:intradoParsedAddr>
+							<m1:houseNum></m1:houseNum>
+							<m1:houseNumSuffix></m1:houseNumSuffix>
+							<m1:prefixDirectional></m1:prefixDirectional>
+							<m1:streetNm></m1:streetNm>
+							<m1:streetNmSuffix></m1:streetNmSuffix>
+							<m1:postDirectional></m1:postDirectional>
+							<m1:city></m1:city>
+							<m1:stateProvince></m1:stateProvince>
+							<m1:zip></m1:zip>
+						</m1:intradoParsedAddr>
+						<m1:icorePVCId>92107</m1:icorePVCId>
+					</m1:customerSite>
+					<m1:numConcurCalls>-1725847808</m1:numConcurCalls>
+					<m1:siteSurvivabilityIndr>Y</m1:siteSurvivabilityIndr>
+					<m1:BIBIndr>N</m1:BIBIndr>
+					<m1:signalingEncryptionIndr>N</m1:signalingEncryptionIndr>
+				</m1:bvoipCustSite>
+			</m1:custSiteDetail>
+			<m1:ipCentrexPackageDetails>
+				<m1:iPCentrexPackageOptionList>
+					<m1:ipCentrexPackageOption>
+						<m1:packageName>PREMIUM</m1:packageName>
+						<m1:packageQuantity>20</m1:packageQuantity>
+					</m1:ipCentrexPackageOption>
+					<m1:ipCentrexPackageOption>
+						<m1:packageName>STANDARD</m1:packageName>
+						<m1:packageQuantity>20</m1:packageQuantity>
+					</m1:ipCentrexPackageOption>
+				</m1:iPCentrexPackageOptionList>
+				<m1:iPCentrexFeatureList>
+					<m1:ipCentrexFeature>
+						<m1:featureName>AUTO_ATTENDANT</m1:featureName>
+						<m1:featureQuantity>2</m1:featureQuantity>
+					</m1:ipCentrexFeature>
+				</m1:iPCentrexFeatureList>
+			</m1:ipCentrexPackageDetails>
+			<m1:dialPlanDetail>
+				<m1:siteId>5260119</m1:siteId>
+			</m1:dialPlanDetail>
+		</m1:updateCustSiteDetailRequest>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
